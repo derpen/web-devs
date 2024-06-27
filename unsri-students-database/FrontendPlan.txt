@@ -1,0 +1,22 @@
+# Stuffs to Add ---------------------------------------
+
+- Frontend (how tf do I make this)
+
+- Rate limit
+- Authoritization
+
+# Repair ---------------------------------------
+
+- Duplicate broke, something seems to be undefined
+
+ERROR (payload): TypeError: Cannot read properties of undefined (reading 'studies_pkey')
+
+ERROR (payload): Error uploading file
+    err: {
+      "type": "TypeError",
+      "message": "Cannot set properties of undefined (setting 'file')",
+      "stack":
+          TypeError: Cannot set properties of undefined (setting 'file')
+
+- Filter need to be fixed (maybe reset the document when new fakultas is chosen, also check to make 
+sure the relation is correct before saving)
