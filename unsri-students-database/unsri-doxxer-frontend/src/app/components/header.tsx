@@ -10,7 +10,7 @@ export default function Header(){
         alt="Unsri Logo"
       />
       <h1>
-        This one is a header :D
+        A little trolling
       </h1>
     </header>
   )
