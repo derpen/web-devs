@@ -110,7 +110,7 @@ export default function Home() {
   //      </a>
   //    </div>
   //  </main>
-    <p className="bg-red-300">
+    <p className="bg-red-400">
       Hello ;)
     </p>
   );
