@@ -4,16 +4,18 @@ import { useState } from 'react';
 import FormSet from "./components/form-set";
 import FormGet from "./components/form-get";
 
+type FormType = 'get' | 'set'
+
 export default function Home() {
   const [activeForm, setActiveForm] = useState('get')
 
-  const toggleForm = (form) => {
+  const toggleForm = (form: FormType) => {
     setActiveForm(form)
   }
 
   return (
-    <div className="p-7">
-      <div className="p-4 bg-yellow-200">
+    <div className="p-7 bg-gradient-to-b from-gray-300 to-gray-500">
+      <div className="p-4 bg-yellow-200 rounded-lg shadow-lg pb-12">
         <div className="flex space-x-4 mb-6">
           <button
             onClick={() => toggleForm('get')}
