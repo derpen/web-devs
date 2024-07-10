@@ -1,6 +1,7 @@
 export default function Footer(){
   return (
-    <footer className="min-h-screen bg-gray-800 text-white content-center flex p-5 justify-between">
+    //<footer className="min-h-screen bg-gray-800 text-white content-center flex p-5 justify-between">
+    <footer className="bg-gray-800 text-white content-center flex p-5 justify-between">
       <div className="p-2">
         <p>
           Unsri-Doxxer-5000, the best way to dox some dudes

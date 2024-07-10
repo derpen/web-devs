@@ -31,8 +31,8 @@ export default function FormSet() {
             <input className="w-full block" type="text" name="sks" id="sks" />
           </div>
           <div className="p-2">
-            <label htmlFor="image">Image</label>
-            <input className="w-full block" type="text" name="image" id="image" />
+            <label htmlFor="image">Foto Siswa</label>
+            <input className="w-full block" type="file" name="image" id="image" />
           </div>
           <div className="relative p-8">
             <button type="submit" className="bg-yellow-200 absolute bottom-2 right-2">Submit Data</button>

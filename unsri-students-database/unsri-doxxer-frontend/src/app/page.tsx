@@ -14,7 +14,7 @@ export default function Home() {
   }
 
   return (
-    <div className="p-7 bg-gradient-to-b from-gray-300 to-gray-500">
+    <div className="p-7 bg-gradient-to-b from-gray-300 to-gray-500 pt-28 sm:pt-36">
       <div className="p-4 bg-yellow-200 rounded-lg shadow-lg pb-12">
         <div className="flex space-x-4 mb-6">
           <button
