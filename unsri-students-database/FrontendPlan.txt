@@ -1,6 +1,6 @@
 # Stuffs to Add ---------------------------------------
 
-- Frontend (how tf do I make this)
+- Upload should say filename and have preview of it after uploading something, and add option to cancel
 
 - Rate limit
 - Authoritization

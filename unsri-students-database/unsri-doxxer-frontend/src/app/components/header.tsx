@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Header(){
   return (
-    <header className="flex bg-yellow-300 fixed w-full">
+    <header className="flex bg-yellow-300 fixed w-full italic font-mono font-bold shadow-lg">
       <div className="flex-none m-6 pl-6 hidden sm:block">
         <Image
           src="/Universitas-Sriwijaya-Logo.png"
@@ -11,9 +11,11 @@ export default function Header(){
           alt="Unsri Logo"
         />
       </div>
-      <h1 className="w-full text-center sm:text-left content-center place-items-center m-6 text-4xl text-nowrap">
-        Unsri-Doxxer-5000
-      </h1>
+      <a href="#" className="w-full text-center sm:text-left content-center place-items-center m-6 text-xl text-nowrap sm:text-4xl"> 
+        <h1 className="">
+          Unsri-Doxxer-5000
+        </h1>
+      </a>
     </header>
   )
 }
