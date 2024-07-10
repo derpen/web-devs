@@ -11,8 +11,8 @@ export default function Header(){
           alt="Unsri Logo"
         />
       </div>
-      <a href="#" className="w-full text-center sm:text-left content-center place-items-center m-6 text-xl text-nowrap sm:text-4xl"> 
-        <h1 className="">
+      <a href="#" className="w-full text-gray-200 text-center sm:text-left content-center place-items-center m-6 text-xl text-nowrap sm:text-4xl"> 
+        <h1 className="drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
           Unsri-Doxxer-5000
         </h1>
       </a>

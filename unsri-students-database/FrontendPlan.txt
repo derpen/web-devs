@@ -1,6 +1,8 @@
 # Stuffs to Add ---------------------------------------
 
 - Upload should say filename and have preview of it after uploading something, and add option to cancel
+- Upload should check for filetype
+- NIM should check that only number is inputted
 
 - Rate limit
 - Authoritization
