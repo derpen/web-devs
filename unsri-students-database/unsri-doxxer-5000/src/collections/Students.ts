@@ -4,6 +4,9 @@ import randomId from '../fields/randomId'
 
 const Students: CollectionConfig = {
     slug: 'students',
+    access: {
+      read: ( { req: { } } ) => { return true },
+    },
     hooks: {
         beforeValidate: [
             randomizeID
