@@ -3,6 +3,7 @@
 A note taking app
 
 # Plan
+* Write in markdown, app will have it's markdown renderer (Bonus point: LaTeX renderer)
 * Next.js frontend
 * Express.js backend
 * No database, notes are stored as files. Maybe a json file to handle title, tags, and other things
